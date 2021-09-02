@@ -61,28 +61,4 @@ Just the power supply unit for the other units.
 
 
 ## Roadmap
-### Prototyping Phase
-#### Version 0.1
-##### Purposes
-##### Functions
-##### Hardware
-
-#### Version 0.2
-##### Purposes
-##### Functions
-##### Hardware
-
-#### Version 0.3
-##### Purposes
-##### Functions
-##### Hardware
-
-#### Version 0.4
-##### Purposes
-##### Functions
-##### Hardware
-
-### Release Candidate Phase
-This phase will be defined after the Prototyping Phase
-### Release Phase
-This phase will be defined after the Release Candidate  Phase
+TBD
