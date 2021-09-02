@@ -1,5 +1,6 @@
 # LED brick
 
+
 ## Goals 
 
 This device creating just for fun :-)
@@ -8,14 +9,15 @@ Also, I want to check my skills in electronics.
 
 
 ## Description
+
 The device gives a lot of fun and relaxation by watching full-coloured blinkenlights.
 
 
 ## Architecture
+
 The structure of the device is based on the next principles:
 1. responsibility separation - a unit performs some whole functions with minimal  other units involving,
 2. low coherence - a unit communicates with other units as low as possible for functions realisation.
-
 
 The device consists of the next units (see Fig.1):
 1. Interface unit (IU)
