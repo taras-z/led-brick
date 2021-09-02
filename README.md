@@ -3,7 +3,7 @@
 
 ## Goals 
 
-This device creating just for fun :-)
+This device is creating just for fun :-)
 
 Also, I want to check my skills in electronics.
 
