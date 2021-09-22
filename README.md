@@ -3,21 +3,21 @@
 
 ## Goals 
 
-This device is creating just for fun :-)
+I am creating this device just for fun :-)
 
 Also, I want to check my skills in electronics.
 
 
 ## Description
 
-The device gives a lot of fun and relaxation by watching full-coloured blinkenlights.
+The device gives a lot of fun and relaxation by showing full-coloured blinkenlights.
 
 
 ## Architecture
 
 The structure of the device is based on the next principles:
-1. responsibility separation - a unit performs some whole functions with minimal  other units involving,
-2. low coherence - a unit communicates with other units as low as possible for functions realisation.
+1. responsibility separation - a unit performs some whole functions with minimal involment of other units,
+2. low coherence - a unit communicates with other units as little as possible for functions realisation.
 
 The device consists of the next units (see Fig.1):
 1. Interface unit (IU)
@@ -34,7 +34,7 @@ The unit main functions are signals transformation from control and audio interf
 Also, the one translates an analogue audio signal in a digital form.
 
 This one has two external channels:
-1. A 'Control channel' are a bi-directional radio link, that is released by WiFi and Bluetooth Low Energy technology. The channel is used for receiving a command from remote devices like smartphones, desktops, etc.
+1. A 'Control channel' is a bi-directional radio link, that is released by WiFi and Bluetooth Low Energy technology. The channel is used for receiving a command from remote devices like smartphones, desktops, etc.
 2. An 'Audio channel' is an only-input channel. The channel is used for synchronising dynamical characteristics of an image on the Display Unit, say, brightness, colour, or rhythm.
 
 The unit has an internal connection with the Control Unit for sending control and audio signals in a digital form.
@@ -42,7 +42,7 @@ The unit has an internal connection with the Control Unit for sending control an
 
 ### Control unit
 
-The unit main functions are generating images based on predefined algorithms and audio signals. Moreover, the unit calibrates an element lightness in the Display Unit and watches for failures in the Display Unit.
+The unit main function is generating images based on predefined algorithms and audio signals. Moreover, the unit calibrates an element lightness in the Display Unit and watches for failures in the Display Unit.
 
 The unit has internal connections with other units:
 1. with the Interface Unit for receiving control and audio signals in digital form.
